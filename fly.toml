@@ -1,14 +1,14 @@
-# fly.toml app configuration file generated for lampac on 2026-11-17T04:07:36Z
+# fly.toml app configuration file generated for lampac1 on 2026-11-17T04:51:13Z
 #
 # See https://docs.fly.io/reference/configuration for information about how to use this file.
 #
 
-app = 'lampac'
+app = 'lampac1'
 primary_region = 'ams'
 
 [build]
 [http_service]
-  internal_port = 8080
+  internal_port = 9118
   force_https = true
   auto_stop_machines = 'stop'
   auto_start_machines = true
